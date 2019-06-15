@@ -24,17 +24,27 @@ print(r"""
 { |              (_______)|/     \||/     \|(_______/              | }
 [ \________________________________________________________________/ ]
 \____________________________________________________________________/
-                                   
+                Desinged and Created by Ethan Dawkins   Version 1.6.2
+INITIATING...                                   
 """)
 
 time.sleep(5)
 os.system('cls')
 
+print('Welcome to the Number Game')
+
 while(True):
-    print('\nWhat would you like to do? 1 or 2?\n\n1. Play Number Game\n2. Exit\n')
+    os.system('cls')
+    print('\nWhat would you like to do? Please use numbers provided.\n\n1. Play Number Game\n2. About the Authors\n3. Exit\n')
     gameRuns = input()
-    if(gameRuns == '2'):
+    if(gameRuns == '3'):
         break
+    if(gameRuns == '2'):
+        menu = ' '
+        while menu != '1':
+            os.system('cls')
+            print('Author - Ethan Dawkins\nProgrammer - Ethan Dawkins\n\nEthan Dawkins is a year 10 student at Ku-Ring-Gai High School and is currently \nstudying IST which is why he made this number guessing game.\n')
+            menu = input('Press 1 to go back to the menu.')
     if(gameRuns == '1'):
         os.system('cls')
         playerName = input('What is your name? ')
