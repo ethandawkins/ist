@@ -1,0 +1,3 @@
+Instructions for Mr Song
+   - Works best if opened in cmd form.
+   - The screen will only clear if in this form.

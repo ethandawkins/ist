@@ -1,0 +1,20 @@
+Journal Entry #1
+   - Created the player input and game range.
+
+Journal Entry #2
+   - Created game number and the basic game functions.
+
+Journal Entry #3
+   - Created error handling.
+
+Journal Entry #4
+   - Created ascii banner screen, and screen clearing after every block of actions.
+
+Journal Entry #5
+   - Created menu, including the exit function.
+
+Journal Entry #6
+   - Added About the Author to the menu.
+
+Journal Entry #7
+   - Added comments.
